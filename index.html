@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Automate betting with Programmer Mode directly on dice sites">
+  <meta name="author" content="Mai Hoang Quoc Bao">
+
+  <title>Web DiceBot</title>
+
+  <link rel="icon" type="image/png" href="img/webdicebot.png" />
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js"></script>
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+  <!-- Plugin CSS -->
+  <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
+
+  <!-- Custom styles for this template -->
+  <link href="css/new-age.css" rel="stylesheet">
+
+  <script src="js/index.js"></script>
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Web DiceBot</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#download">Install</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#prices">Buy License</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#fogot">Recover</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#var">Variables</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-lg-7 my-auto">
+          <div class="header-content mx-auto">
+            <h1 class="mb-5">Automate betting with Programmer Mode directly on dice sites</h1>
+            <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Install now</a>
+          </div>
+        </div>
+        <div class="col-lg-5 my-auto">
+          <!-- <div class="device-container"> -->
+          <div class="device-mockup macbook portrait white">
+            <div class="device">
+              <div class="screen">
+                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
+                <img src="img/demo-screen-1.png" class="img-fluid" alt="">
+              </div>
+              <div class="button">
+                <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+              </div>
+            </div>
+          </div>
+          <!-- </div> -->
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="download bg-primary text-center" id="download">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto">
+          <h2 class="section-heading">Bot Installer</h2>
+          <p>
+            Only use the official installer if you don't want someone to fake is us to trick you
+            <br>
+            <a href="https://www.youtube.com/watch?v=Kz1YtMdpST0" class="text-primary" target="_blank">How to use?</a>
+          </p>
+
+          <div class="form-group">
+            <select class="form-control" id="selectBot" onchange="changeBot()"></select>
+          </div>
+
+          <div class="form-group">
+            <textarea class="form-control" rows="5" id="contentBot"></textarea>
+          </div>
+
+          <button type="button" class="btn btn-primary w-100" data-clipboard-target="#contentBot">Copy</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-heading text-center">
+        <h2>Features</h2>
+        <p class="text-muted">Check out what you can do with this bot</p>
+        <hr>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 my-auto">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="fa fa-list" aria-hidden="true"></i>
+                  <h3>Multitude</h3>
+                  <p class="text-muted">Supports a multitude of sites dice and currencies</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="icon-screen-desktop text-primary"></i>
+                  <h3>Device Friendlly</h3>
+                  <p class="text-muted">Ready to use on any desktop device have an browser</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="fa fa-code text-primary"></i>
+                  <h3>Programmer Mode</h3>
+                  <p class="text-muted">
+                    You can using strategy code Lua or JavaScript like Seuntjies DiceBot
+                  </p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="feature-item">
+                  <i class="fa fa-universal-access"></i>
+                  <h3>Professional GUI</h3>
+                  <p class="text-muted">Show full bet details, clear layout, easy to set up and use</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="cta-content">
+      <div class="container">
+        <h2>VERY CHEAP</h2>
+        <a href="#prices" class="btn btn-outline btn-xl js-scroll-trigger">Let's check price</a>
+      </div>
+    </div>
+    <div class="overlay"></div>
+  </section>
+
+  <section class="contact bg-white" id="prices">
+    <div class="container">
+      <h2>
+        Prices
+      </h2>
+      <p class="text-muted">Start using with very cheap price right now</p>
+      <hr>
+
+      <table class="table table-striped text-center mt-4">
+        <tbody id="listPrice"></tbody>
+      </table>
+
+      <div class="text-left">
+        <label>Payment address</label>
+
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="paymentAddress" value="DRXfe5xapcPG4cKYHTpDwi5kgEhUxdaxtZ">
+          <div class="input-group-append">
+            <button type="button" class="btn btn-primary" data-clipboard-target="#paymentAddress">Copy</button>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label>Your email</label>
+          <input type="text" class="form-control" id="email">
+        </div>
+
+        <div class="form-group">
+          <label>Your hash/txid transaction</label>
+          <input type="text" class="form-control" id="hash">
+        </div>
+
+        <button type="button" class="btn btn-primary w-100" onclick="buyLicense()">Buy now</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact bg-primary" id="fogot">
+    <div class="container">
+      <h2>
+        Recover
+      </h2>
+      <p>Recover your license via email when you fogot</p>
+
+      <div class="text-left">
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="emailRecover" placeholder="Type your email">
+
+          <div class="input-group-append">
+            <button type="button" class="btn btn-primary" onclick="recoverLicense()">Recover</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="var">
+    <div class="container">
+      <h2>
+        Variables & Functions
+      </h2>
+      <p class="text-muted">Variables and Functions use in Programmer Mode</p>
+      <hr>
+
+      <div class="row text-left p-4">
+        <div class="col-sm-12 col-md-6">
+          <pre class="bg-light">-- sample lua code
+chance=49.5
+bethigh=true
+basebet=0.00000001
+nextbet=basebet
+
+function dobet()
+    if (win) then
+        nextbet=basebet
+    else
+        nextbet=previousbet*2
+    end
+end</pre>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <pre class="bg-light">// sample javascript code
+chance=49.5
+bethigh=true
+basebet=0.00000001
+nextbet=basebet
+
+function dobet() {
+    if (win) {
+        nextbet=basebet
+    } else 
+        nextbet=previousbet*2
+    }
+}</pre>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <h3 class="text-primary">Variables</h3>
+
+          <pre>chance : % win change
+bethigh : bet side, true is over/above, false is under/below
+nextbet : bet amount for next bet make
+balance : current balance
+profit : total profit in round
+currentprofit, lastBet.profit : profit of last bet make
+previousbet, lastBet.amount : amount of last bet make
+lastBet.chance : win chance of last bet make
+lastBet.roll : result number of last bet make
+win : true is last bet make has win, false is lose
+bets : bet count
+wins : win count
+winstreak : streak of win count
+losses : lose count
+losestreak : streak of lose count
+currentstreak : streak of bet count</pre>
+        </div>
+
+        <div class="col-sm-12 col-md-6">
+          <h3 class="text-primary">Functions</h3>
+
+          <pre>dobet() : loop betting
+ching() : alert with sound
+start() : start betting
+stop() : stop betting
+continue() : continue betting after void stop()
+resetseed() : reset seed fair
+resetstats() : reset stats in round</pre>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact bg-primary" id="contact">
+    <div class="container">
+      <h2>
+        We <i class="fas fa-heart"></i> new friends
+      </h2>
+      <ul class="list-inline list-social">
+        <!-- <li class="list-inline-item social-twitter">
+          <a href="#">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li> -->
+        <li class="list-inline-item social-facebook">
+          <a href="https://www.facebook.com/groups/superbotdice" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </li>
+        <!-- <li class="list-inline-item social-google-plus">
+          <a href="#">
+            <i class="fab fa-google-plus-g"></i>
+          </a>
+        </li> -->
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container text-center">
+      <p>Web DiceBot &copy; 2019 - <span id="currentYear"></span>. All Rights Reserved</p>
+
+      <!-- <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="#">Privacy</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">Terms</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#">FAQ</a>
+            </li>
+          </ul> -->
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/new-age.js"></script>
+
+</body>
+
+</html>
