@@ -38,6 +38,14 @@ script.src = BOT_URL+'/bot/init/bitsler-dice'
 document.body.appendChild(script)`
     },
     {
+        name: 'bitvest.io - dice',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/bitvest'
+document.body.appendChild(script)`
+    },
+    {
         name: 'casinoroyale.bet - dice classic',
         value: `const BOT_URL = '${API_URL}'
 var script = document.createElement('script')
