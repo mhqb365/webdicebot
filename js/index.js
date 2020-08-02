@@ -1,4 +1,5 @@
-const API_URL = 'https://api.webdicebot.xyz'
+// const API_URL = 'https://api.webdicebot.xyz'
+const API_URL = 'http://localhost:8001'
 
 const bots = [
     {
@@ -67,6 +68,14 @@ document.body.appendChild(script)`
 var script = document.createElement('script')
 script.type = 'text/javascript'
 script.src = BOT_URL+'/bot/init/duckdice'
+document.body.appendChild(script)`
+    },
+    {
+        name: 'freebitco.in',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/freebitco'
 document.body.appendChild(script)`
     },
     {
