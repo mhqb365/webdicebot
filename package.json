@@ -1,0 +1,11 @@
+{
+  "name": "webdicebot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mhqb365/webdicebot.git",
+  "author": "mhqb365 <mhqb365@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "git add . && git commit -m new-deploy && git push -u origin master"
+  }
+}
