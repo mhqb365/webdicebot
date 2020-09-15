@@ -13,14 +13,14 @@ script.type = 'text/javascript'
 script.src = BOT_URL+'/bot/init/999dice'
 document.body.appendChild(script)`
     },
-    {
-        name: 'bc.game - hash dice',
-        value: `const BOT_URL = '${API_URL}'
-var script = document.createElement('script')
-script.type = 'text/javascript'
-script.src = BOT_URL+'/bot/init/bc-hash-dice'
-document.body.appendChild(script)`
-    },
+//     {
+//         name: 'bc.game - hash dice',
+//         value: `const BOT_URL = '${API_URL}'
+// var script = document.createElement('script')
+// script.type = 'text/javascript'
+// script.src = BOT_URL+'/bot/init/bc-hash-dice'
+// document.body.appendChild(script)`
+//     },
     {
         name: 'bitsler.com - boom',
         value: `const BOT_URL = '${API_URL}'
@@ -93,22 +93,22 @@ script.type = 'text/javascript'
 script.src = BOT_URL+'/bot/init/luckyfish-dice-classic'
 document.body.appendChild(script)`
     },
-//     {
-//         name: 'luckygames.io - balls',
-//         value: `const BOT_URL = '${API_URL}'
-// var script = document.createElement('script')
-// script.type = 'text/javascript'
-// script.src = BOT_URL+'/bot/init/luckygames-balls'
-// document.body.appendChild(script)`
-//     },
-//     {
-//         name: 'luckygames.io - dice',
-//         value: `const BOT_URL = '${API_URL}'
-// var script = document.createElement('script')
-// script.type = 'text/javascript'
-// script.src = BOT_URL+'/bot/init/luckygames-dice'
-// document.body.appendChild(script)`
-//     },
+    //     {
+    //         name: 'luckygames.io - balls',
+    //         value: `const BOT_URL = '${API_URL}'
+    // var script = document.createElement('script')
+    // script.type = 'text/javascript'
+    // script.src = BOT_URL+'/bot/init/luckygames-balls'
+    // document.body.appendChild(script)`
+    //     },
+    //     {
+    //         name: 'luckygames.io - dice',
+    //         value: `const BOT_URL = '${API_URL}'
+    // var script = document.createElement('script')
+    // script.type = 'text/javascript'
+    // script.src = BOT_URL+'/bot/init/luckygames-dice'
+    // document.body.appendChild(script)`
+    //     },
     {
         name: 'paradice.in - dice',
         value: `const BOT_URL = '${API_URL}'
