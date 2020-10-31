@@ -180,7 +180,7 @@ function fectPrices() {
         url: API_URL + '/price',
         method: 'GET'
     }).done(response => {
-        var priceElements = response.map(res => `<tr><td>${res.limit} days</td><td>${res.amount.pay.toLocaleString('vi-VN')} doge</td></tr>`)
+        var priceElements = response.map(res => `<tr><td>${res.limit} Days</td><td>${res.amount.pay.toLocaleString('vi-VN')} Doge</td></tr>`)
 
         $('#listPrice').html(priceElements)
     })

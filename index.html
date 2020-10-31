@@ -10,7 +10,7 @@
 
   <title>Web DiceBot</title>
 
-  <link rel="icon" type="image/png" href="img/webdicebot.png" />
+  <link rel="icon" type="image/png" href="img/logo.png" />
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -33,7 +33,7 @@
   <!-- Custom styles for this template -->
   <link href="css/new-age.css" rel="stylesheet">
 
-  <script src="js/index.js?cache=0"></script>
+  <script src="js/index.js?cache=1"></script>
 </head>
 
 <body id="page-top">
@@ -41,6 +41,8 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
+      <img class="mr-2 rounded-circle" src="img/logo.png" style="width: 64px;" />
+
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Web DiceBot</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -63,7 +65,7 @@
             <a class="nav-link js-scroll-trigger" href="#fogot">Recover License</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#var">Variables</a>
+            <a class="nav-link js-scroll-trigger" href="#var">Variables & Functions</a>
           </li>
         </ul>
       </div>
@@ -75,16 +77,14 @@
       <div class="row h-100">
         <div class="col-lg-7 my-auto">
           <div class="header-content mx-auto">
-            <h1 class="mb-5">Automate betting with Programmer Mode directly on dice sites</h1>
+            <h1 class="mb-5">Automate betting with programmer mode directly on dice sites</h1>
             <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Install now</a>
           </div>
         </div>
         <div class="col-lg-5 my-auto">
-          <!-- <div class="device-container"> -->
           <div class="device-mockup macbook portrait white">
             <div class="device">
               <div class="screen">
-                <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                 <img src="img/demo-screen-1.png" class="img-fluid" alt="">
               </div>
               <div class="button">
@@ -92,7 +92,6 @@
               </div>
             </div>
           </div>
-          <!-- </div> -->
         </div>
       </div>
     </div>
@@ -102,10 +101,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
-          <h2 class="section-heading">Bot Installer</h2>
-          <p>
-            Only use the official installer if you don't want someone to fake is us to trick you
-            <br>
+          <h2 class="section-heading">Bot installer</h2>
+          <p class="p-4">
             <a href="https://www.youtube.com/watch?v=Kz1YtMdpST0" class="text-primary" target="_blank">How to use?</a>
           </p>
 
@@ -126,9 +123,7 @@
   <section class="features" id="features">
     <div class="container">
       <div class="section-heading text-center">
-        <h2>Features</h2>
-        <p class="text-muted">Check out what you can do with this bot</p>
-        <hr>
+        <h2 class="section-heading">Features</h2>
       </div>
       <div class="row">
         <div class="col-lg-12 my-auto">
@@ -144,7 +139,7 @@
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="icon-screen-desktop text-primary"></i>
-                  <h3>Device Friendlly</h3>
+                  <h3>Device friendlly</h3>
                   <p class="text-muted">Ready to use on any desktop device have an browser</p>
                 </div>
               </div>
@@ -154,7 +149,7 @@
               <div class="col-lg-6">
                 <div class="feature-item">
                   <i class="fa fa-code text-primary"></i>
-                  <h3>Programmer Mode</h3>
+                  <h3>Programmer mode</h3>
                   <p class="text-muted">
                     You can using strategy code Lua or JavaScript like Seuntjies DiceBot
                   </p>
@@ -177,7 +172,8 @@
   <section class="cta">
     <div class="cta-content">
       <div class="container">
-        <h2>VERY CHEAP</h2>
+        <h2 class="section-heading">VERY CHEAP</h2>
+
         <a href="#prices" class="btn btn-outline btn-xl js-scroll-trigger">Let's check price</a>
       </div>
     </div>
@@ -186,18 +182,16 @@
 
   <section class="contact bg-white" id="prices">
     <div class="container">
-      <h2>
-        Prices
+      <h2 class="section-heading">
+        Buy license
       </h2>
-      <p class="text-muted">Start using with very cheap price right now</p>
-      <hr>
 
       <table class="table table-striped text-center mt-4">
         <tbody id="listPrice"></tbody>
       </table>
 
       <div class="text-left">
-        <label>Payment Doge address</label>
+        <label>Payment address</label>
 
         <div class="input-group mb-3">
           <input type="text" class="form-control" id="paymentAddress" value="D66h34sMqtASZEPazWpvAwKzQJxNoLvVyp">
@@ -218,14 +212,15 @@
 
         <button type="button" class="btn btn-primary w-100 mb-4" onclick="buyLicense()">Buy now</button>
 
-        <h3>Orther payment method</h3>
+        <h3 class="mt-4 pt-4">Orther payment method</h3>
+
         <p>
-          - <a href="https://trxpayment.webdicebot.xyz" target="_blank">Buy license with Tron (TRX)</a>, open url <a
-            href="https://trxpayment.webdicebot.xyz" target="_blank">https://trxpayment.webdicebot.xyz</a> in
-          Tron Wallet
+          Pay with Tron (TRX) ☛ Open dapp website <a href="https://trxpayment.webdicebot.xyz"
+            target="_blank">https://trxpayment.webdicebot.xyz</a> in
+          Tron wallet
           browser (TronLink, TronWallet, etc..)
           <br>
-          - Pay with another coin, contact to: <a href="mailto:mhqb365@gmail.com" target="_blank"
+          Pay with another coin ☛ Contact to <a href="mailto:mhqb365@gmail.com" target="_blank"
             class="text-primary">mhqb365@gmail.com</a>
         </p>
       </div>
@@ -234,10 +229,9 @@
 
   <section class="contact bg-primary" id="fogot">
     <div class="container">
-      <h2>
+      <h2 class="section-heading">
         Recover license
       </h2>
-      <p>Recover your license via email when you fogot</p>
 
       <div class="text-left">
         <div class="input-group mb-3">
@@ -253,11 +247,9 @@
 
   <section class="contact" id="var">
     <div class="container">
-      <h2>
+      <h2 class="section-heading">
         Variables & Functions
       </h2>
-      <p class="text-muted">Variables and Functions use in Programmer Mode</p>
-      <hr>
 
       <div class="row text-left p-4">
         <div class="col-sm-12 col-md-6">
@@ -274,6 +266,8 @@ function dobet()
         nextbet=previousbet*2
     end
 end</pre>
+
+          <p class="small">☛ Lua code must follow rules of Lua v5.3</p>
         </div>
 
         <div class="col-sm-12 col-md-6">
@@ -291,38 +285,40 @@ function dobet() {
     }
 }</pre>
         </div>
+      </div>
 
+      <div class="row text-left p-4">
         <div class="col-sm-12 col-md-6">
           <h3 class="text-primary">Variables</h3>
 
-          <pre>chance : % win change
-bethigh : bet side, true is over/above, false is under/below
-nextbet : bet amount for next bet make
-balance : current balance
-profit : total profit in round
-currentprofit, lastBet.profit : profit of last bet make
-previousbet, lastBet.amount : amount of last bet make
-lastBet.chance : win chance of last bet make
-lastBet.roll : result number of last bet make
-win : true is last bet make has win, false is lose
-bets : bet count
-wins : win count
+          <pre>chance: % win change
+bethigh: bet side, true is over/above, false is under/below
+nextbet: bet amount for next bet make
+balance: current balance
+profit: total profit in round
+currentprofit, lastBet.profit: profit of last bet make
+previousbet, lastBet.amount: amount of last bet make
+lastBet.chance: win chance of last bet make
+lastBet.roll: result number of last bet make
+win: true is last bet make has win, false is lose
+bets: bet count
+wins: win count
 winstreak : streak of win count
-losses : lose count
-losestreak : streak of lose count
-currentstreak : streak of bet count</pre>
+losses: lose count
+losestreak: streak of lose count
+currentstreak: streak of bet count</pre>
         </div>
 
         <div class="col-sm-12 col-md-6">
           <h3 class="text-primary">Functions</h3>
 
-          <pre>dobet() : loop betting
-ching() : alert with sound
-start() : start betting
-stop() : stop betting
-continuebet() : continue betting after void stop()
-resetseed() : reset seed fair
-resetstats() : reset stats in round</pre>
+          <pre>dobet(): loop betting
+ching(): alert with sound
+start(): start betting
+stop(): stop betting
+continuebet(): continue betting after void stop()
+resetseed(): reset seed fair
+resetstats(): reset stats in round</pre>
         </div>
       </div>
     </div>
@@ -354,7 +350,7 @@ resetstats() : reset stats in round</pre>
   </section>
 
   <footer>
-    <div class="container text-center">
+    <div class="container">
       <p>Web DiceBot &copy; 2019 - <span id="currentYear"></span>. All Rights Reserved</p>
 
       <!-- <ul class="list-inline">
