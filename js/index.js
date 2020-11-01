@@ -13,14 +13,14 @@ script.type = 'text/javascript'
 script.src = BOT_URL+'/bot/init/999dice'
 document.body.appendChild(script)`
     },
-//     {
-//         name: 'bc.game - hash dice',
-//         value: `const BOT_URL = '${API_URL}'
-// var script = document.createElement('script')
-// script.type = 'text/javascript'
-// script.src = BOT_URL+'/bot/init/bc-hash-dice'
-// document.body.appendChild(script)`
-//     },
+    {
+        name: 'bc.game - classic dice',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/bc-classic-dice'
+document.body.appendChild(script)`
+    },
     {
         name: 'betfury.io - dice',
         value: `const BOT_URL = '${API_URL}'
@@ -117,6 +117,14 @@ document.body.appendChild(script)`
     // script.src = BOT_URL+'/bot/init/luckygames-dice'
     // document.body.appendChild(script)`
     //     },
+    {
+        name: 'nanogames.io - hash dice',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/nanogames-hash-dice'
+document.body.appendChild(script)`
+    },
     {
         name: 'paradice.in - dice',
         value: `const BOT_URL = '${API_URL}'
