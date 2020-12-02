@@ -142,6 +142,22 @@ script.src = BOT_URL+'/bot/init/stake-dice'
 document.body.appendChild(script)`
     },
     {
+        name: 'tronfree.webdicebot.xyz - dice',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/tronfree'
+document.body.appendChild(script)`
+    },
+    {
+        name: 'stake.com - dice',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/stake-dice'
+document.body.appendChild(script)`
+    },
+    {
         name: 'trustdice.win - dice',
         value: `const BOT_URL = '${API_URL}'
 var script = document.createElement('script')
