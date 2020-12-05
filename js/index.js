@@ -93,22 +93,6 @@ script.type = 'text/javascript'
 script.src = BOT_URL+'/bot/init/luckyfish-dice-classic'
 document.body.appendChild(script)`
     },
-    //     {
-    //         name: 'luckygames.io - balls',
-    //         value: `const BOT_URL = '${API_URL}'
-    // var script = document.createElement('script')
-    // script.type = 'text/javascript'
-    // script.src = BOT_URL+'/bot/init/luckygames-balls'
-    // document.body.appendChild(script)`
-    //     },
-    //     {
-    //         name: 'luckygames.io - dice',
-    //         value: `const BOT_URL = '${API_URL}'
-    // var script = document.createElement('script')
-    // script.type = 'text/javascript'
-    // script.src = BOT_URL+'/bot/init/luckygames-dice'
-    // document.body.appendChild(script)`
-    //     },
     {
         name: 'nanogames.io - hash dice',
         value: `const BOT_URL = '${API_URL}'
@@ -139,14 +123,6 @@ document.body.appendChild(script)`
 var script = document.createElement('script')
 script.type = 'text/javascript'
 script.src = BOT_URL+'/bot/init/stake-dice'
-document.body.appendChild(script)`
-    },
-    {
-        name: 'tronfree.webdicebot.xyz - dice',
-        value: `const BOT_URL = '${API_URL}'
-var script = document.createElement('script')
-script.type = 'text/javascript'
-script.src = BOT_URL+'/bot/init/tronfree'
 document.body.appendChild(script)`
     },
     {
