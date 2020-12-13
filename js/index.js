@@ -78,6 +78,14 @@ script.src = BOT_URL+'/bot/init/freebitco'
 document.body.appendChild(script)`
     },
     {
+        name: 'freetron - dice',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/freetron'
+document.body.appendChild(script)`
+    },
+    {
         name: 'gigabet.com',
         value: `const BOT_URL = '${API_URL}'
 var script = document.createElement('script')
@@ -115,14 +123,6 @@ document.body.appendChild(script)`
 var script = document.createElement('script')
 script.type = 'text/javascript'
 script.src = BOT_URL+'/bot/init/primedice'
-document.body.appendChild(script)`
-    },
-    {
-        name: 'tronfree - dice',
-        value: `const BOT_URL = '${API_URL}'
-var script = document.createElement('script')
-script.type = 'text/javascript'
-script.src = BOT_URL+'/bot/init/tronfree'
 document.body.appendChild(script)`
     },
     {
