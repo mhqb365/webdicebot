@@ -78,14 +78,6 @@ script.src = BOT_URL+'/bot/init/freebitco'
 document.body.appendChild(script)`
     },
     {
-        name: 'freetron.webdicebot.xyz - dice',
-        value: `const BOT_URL = '${API_URL}'
-var script = document.createElement('script')
-script.type = 'text/javascript'
-script.src = BOT_URL+'/bot/init/freetron'
-document.body.appendChild(script)`
-    },
-    {
         name: 'gigabet.com',
         value: `const BOT_URL = '${API_URL}'
 var script = document.createElement('script')
@@ -234,7 +226,7 @@ function recoverLicense() {
 $(document).ready(() => {
     new ClipboardJS('.btn');
 
-    // $("#myModal").modal()
+    $("#myModal").modal()
 
     var selectBot = bots.map(bot => `<option value="${bot.name}">${bot.name}</option>`)
 
