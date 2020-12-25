@@ -62,11 +62,27 @@ script.src = BOT_URL+'/bot/init/crypto-games-dice'
 document.body.appendChild(script)`
     },
     {
-        name: 'duckdice.io',
+        name: 'duckdice.io - faucet mode',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/duckdice-faucet-mode'
+document.body.appendChild(script)`
+    },
+    {
+        name: 'duckdice.io - main mode',
         value: `const BOT_URL = '${API_URL}'
 var script = document.createElement('script')
 script.type = 'text/javascript'
 script.src = BOT_URL+'/bot/init/duckdice'
+document.body.appendChild(script)`
+    },
+    {
+        name: 'duckdice.io - new year mode',
+        value: `const BOT_URL = '${API_URL}'
+var script = document.createElement('script')
+script.type = 'text/javascript'
+script.src = BOT_URL+'/bot/init/duckdice-new-year-mode'
 document.body.appendChild(script)`
     },
     {
