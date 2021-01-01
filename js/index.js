@@ -1,4 +1,4 @@
-const API_URL = window.location.hostname == 'webdicebot.xyz' ? 'https://api.webdicebot.xyz' : 'http://localhost:8001'
+const API_URL = window.location.hostname == 'localhost' ? 'http://localhost:8000' : 'https://apiold.webdicebot.xyz'
 
 const bots = [
     {
