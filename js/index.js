@@ -250,8 +250,6 @@ function recoverLicense() {
 $(document).ready(() => {
     new ClipboardJS('.btn');
 
-    $("#myModal").modal()
-
     var selectBot = bots.map(bot => `<option value="${bot.name}">${bot.name}</option>`)
 
     $('#selectBot').html(selectBot)
