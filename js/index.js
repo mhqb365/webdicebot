@@ -254,7 +254,7 @@ $(document).ready(() => {
 
     $('#selectBot').html(selectBot)
 
-    fectPrices()
+    // fectPrices()
 
     $('#currentYear').text(new Date().getFullYear())
 })
